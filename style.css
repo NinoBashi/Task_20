@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;    
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Medium.ttf);}
+@font-face {
+    font-family:Montserrat;
+    src: url(Montserrat-Medium.ttf);}
+@font-face {font-family: Inter;
+    src: url(Inter-Medium.ttf);
+}    
+.nav{
+    width: 100%;
+    height: 124px;
+    display: flex;
+    background-image: url(Rectangle.png);
+    justify-content: center;
+    justify-content: space-around;
+    border-bottom: 5px solid rgba(238, 223, 243, 0.26);
+    padding-top: 20px;
+}
+h1{
+    font-family: Poppins;
+    color:rgba(74, 153, 211, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+p8{
+    margin-right: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.nav2{
+    width: 300px;
+    display: flex;
+    margin-top: 40px;
+}
+.img{
+    width: 57px;
+    height: 44px; 
+}
+.imgg{
+    width: 57px;
+    height: 44px;
+}
+.box-head{
+    width: 100%;
+    height: 365px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(Rectangle2.png);
+    position: relative;
+        
+}
+.box1{
+    width: 850px;
+    height: 365px;
+    padding-top: 30px;
+}
+.txt{
+   line-height: 40px;
+   font-family:Montserrat;
+   font-weight: 400;
+   font-size: 33px;
+   text-align: center;
+}
+.top_btn{
+    margin-left: 50px;
+    width: 757px;
+    height: 69px;
+    border: 2 px solid; 
+    border-radius: 20px; 
+    border-color: rgba(252, 11, 13, 1);
+    background-color: transparent;
+}
+p1{
+    font-family: Inter;
+    color: rgba(0, 75, 132, 1);
+    margin-right: 350px;
+}
+.iimg{
+    float:left;
+}
+.iiimg{
+    width: 35px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+.img2{
+    width: 436px;
+    height: 382px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 40px;
+}
+.card{
+    width: 100%;
+    height: 303px;
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    gap: 48px;
+}
+.card1{
+    display: flex;
+    
+    width: 626px;
+    height: 303px;
+    border: 1px solid;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 206, 206);
+}
+.card2{
+    display: flex;
+    width: 626px;
+    height: 303px;
+    border: 1px solid;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 206, 206);
+}
+.card1_1{
+    width: 313px;
+    height: 303px;
+    padding-left: 30px;
+    
+}
+.card1_2{
+    width: 313px;
+    height: 303px;
+    
+}
+.card2_1{
+    padding-left: 40px;
+}
+.tech{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+p2{
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300;
+}
+h3{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:29.65px;
+    color: rgba(0, 0, 0, 1);
+}
+.item-card{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    width: 153px;
+    height: 48px;
+    background-color: rgba(252, 11, 13, 1);
+    border-radius:10px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.img3{
+    width: 255px;
+    height: 238px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cardd1{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    margin-top: 170px;
+    justify-content: center;
+}
+.cardd2{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.cardd3{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.btn2{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 221px;
+    height: 70px;
+    
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box3{
+    width: 100%;
+    height: 75px;
+}
+.img4{
+    
+    float: right;
+    position: relative;
+    margin-right: 130px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1500px;
+    height: 404px;
+    background-image: url(Rectangle\ 23.png);
+}
+.box4{
+    width: 850px;
+    height: 404px;
+}
+h2{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 48px;
+    margin-left: 100px;
+}
+p{  font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 100px;   
+}
+.box5{
+    margin-top: 60px;
+}
+.ftr4{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 100px;
+}
